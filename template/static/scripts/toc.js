@@ -17,7 +17,7 @@ $.fn.toc = function(options) {
       var offsetTop = $el.offset().top - navbarHeight;
 
       $('body,html').animate({ scrollTop: offsetTop }, 400, 'swing', function() {
-        location.hash = elScrollTo;
+        //location.hash = elScrollTo;
       });
     }
     $('li', self).removeClass(activeClassName);
